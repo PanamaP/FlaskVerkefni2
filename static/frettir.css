@@ -1,0 +1,73 @@
+body{
+	margin:0 auto;
+	width: 60%;
+}
+
+.haus{
+	border:0.3px solid;
+	border-radius: 5px;
+	text-align: center;
+}
+
+.fotur{
+	border:1px solid;
+	border-radius: 5px;
+	text-align: center;
+}
+
+.col1_2{
+	float: left;
+	width: 50%;
+}
+
+img{
+	width: 100%;
+}
+
+ul li{
+	margin: 2px 0 5px 0;
+}
+
+h3{
+	text-align: center;
+}
+
+h6{
+	margin-left: 25px;
+}
+
+p{
+	margin-left: 25px;
+	margin-right: 25px;
+}
+/*
+  ========================================
+  Clearfix
+  ========================================
+*/
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  clear: both;
+  *zoom: 1;
+}
+
+/*
+  ========================================
+  Grid
+  ========================================
+*/
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}

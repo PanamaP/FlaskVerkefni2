@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="/static/frettir.css">
+	<title>Helstu fréttir</title>
+</head>
+<body> 
+<header class='haus'>
+	{% include "header.html" %}
+</header>
+	<div class='group'>
+		<section class="col1_2">
+            <h3>{{ titill }} </h3>
+             <img src= '{{url_for('static', filename=mynd)}}'>
+			<br>
+			<br>
+		</section>
+		<section class="col1_2">
+            <br>
+            <br>
+            <p>{{ frett }}</p>
+            <h6><b><i>ESA@frettir.is</i></b></h6>
+			<h6><b><i><a href='/b'>Heim</a></i></b></h6>
+		</section>
+    </div>
+<footer class='fotur'>
+    {% include "footer.html" %}
+</footer>
+</body>
+</html>
